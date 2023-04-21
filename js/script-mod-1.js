@@ -309,3 +309,29 @@
 
 // const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
 // console.log(clients.slice(2, 3)); // ["Ajax", "Poly"]   
+
+//============================================================ЗДЧ 33/36 МОДУЛЬ 1 В ЧЕМ РАЗНИЦА?====================================
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+// if (message.length <= maxLength){
+//   result = message;}
+// else {
+//   result = message.slice(0, maxLength) + "...";
+// }
+
+//   /// Change code above this line
+//   return result;
+// }
+
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+// result = message.length <= maxLength ? message : message.slice(0, maxLength) + "...";
+//   /// Change code above this line
+//   return result;
+// }
+
+//===========================================================
